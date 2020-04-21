@@ -480,7 +480,7 @@ $ heroku config
 === safe-woodland-66362 Config Vars
 DATABASE_URL: postgres://evxybkkmiodzdd:857fa7799badf797bc9ae444b67dab94d2490e4a25d5a2d112019fbc75b8c42e@ec2-54-225-237-84.compute-1.amazonaws.com:5432/d3ftstv7m1o4k2
 ```
-La URL se muestra en el formado  postgres://<user>:<pass>@<host>:<port>/<bd>
+La URL se muestra en el formado  postgres://[user]:[pass]@[host]:[port]/[bd]
 
 Crear las variables de entorno en Heroku con:
 
